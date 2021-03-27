@@ -7,6 +7,7 @@ valores_scrabble = {1: ['A','E','I','O','U','L','N','R','S','T'],
 10: ['Q','Z']}
 
 puntos = (1, 2, 3, 4, 5, 8, 10)
+
 def verificar_valor (letra : str):
     '''Recibe una letra y devuelve el puntaje de la letra'''
     i = 0
