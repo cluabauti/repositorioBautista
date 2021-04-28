@@ -6,19 +6,10 @@ encabezado = next(csvreader)
 print (encabezado)
 
 
-valores = []
-
 for linea in csvreader:
-    '''if linea[7] == '0' and 'ES' in linea[12] :
-        print(linea,'\n')'''
-    valores.append(linea[6])
+    if linea[7] == '0' and 'ES' in linea[12] :
+        print(linea,'\n')
 
-theset = sorted(valores, reverse=True)
-dicci = {}
-for i in range(10):
-    dicci[theset[i]] = valores.index(theset[i])
-
-print(dicci)
-
+#falta el segundo punto
 
 archivo.close()
