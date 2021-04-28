@@ -27,3 +27,4 @@ def data_consolas (current_path, files_path, file_name):
         consolas = list(lambda cons: for cons [0] in csvreader)
         ventas = list(lambda vent : vent[4] in  csvreader)
         sorted(ventas)
+        
